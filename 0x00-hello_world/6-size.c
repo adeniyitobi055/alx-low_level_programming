@@ -1,15 +1,14 @@
 #include<stdio.h>
 /**
- * main - computes size of various data types
+ *main - computes size of various data types
  *
- * Return: zero
+ *Return: zero
  */
 int main(void)
 {
 	char c;
 	int i;
 	float f;
-
 	printf("Size of a char: %lu byte\(s\)\n", sizeof(c));
 	printf("Size of an int: %lu byte\(s\)\n", sizeof(i));
 	printf("Size of a long int: %lu byte\(s\)\n", sizeof(long int));
