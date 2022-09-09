@@ -12,12 +12,13 @@ int main(void)
 
 	for (i = 0; i <= 99; i++)
 	{
-		for (j = 1; j <= 99; j++)
+		for (j = 0; j <= 99; i++)
 		{
-			putchar(i);
-			putchar(j);
 			if (i == j)
+			{
 				continue;
+			}
+			putchar(i, j);
 			putchar(',');
 			putchar(' ');
 		}
