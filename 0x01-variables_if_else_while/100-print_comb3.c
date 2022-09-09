@@ -15,9 +15,9 @@ int main(void)
 		putchar((i % 10) + '0');
 		for (i == 99)
 			break;
-		putchar(",");
-		putchar(" ");
+		putchar(',');
+		putchar(' ');
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
