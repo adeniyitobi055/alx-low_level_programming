@@ -14,7 +14,8 @@ int main(void)
 	{
 		for (j = 1; j <= 99; j++)
 		{
-			putchar(ij);
+			putchar(i);
+			putchar(j);
 			if (i == j)
 				continue;
 			putchar(',');
