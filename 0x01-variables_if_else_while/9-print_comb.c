@@ -14,7 +14,7 @@ int main(void)
 		putchar(i);
 		putchar(',');
 		putchar(' ');
-		if (i == 8)
+		if (i == '9')
 			break;
 	}
 	putchar('\n');
