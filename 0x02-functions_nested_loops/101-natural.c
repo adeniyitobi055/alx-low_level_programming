@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - sum of multiples of 3 and 5 below 1024
@@ -17,6 +18,6 @@ int main(void)
 		{
 			sum = sum + n;
 		}
-		printf(sum);		
+		putchar(sum);
 	}
 }
