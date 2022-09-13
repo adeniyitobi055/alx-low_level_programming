@@ -17,6 +17,6 @@ int main(void)
 		{
 			sum = sum + n;
 		}
-		_putchar(sum);
+		printf(sum);		
 	}
 }
