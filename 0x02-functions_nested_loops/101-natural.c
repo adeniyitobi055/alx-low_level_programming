@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	long long int max = 1024;
+	int max = 1024;
 	int sum;
 	int n;
 
