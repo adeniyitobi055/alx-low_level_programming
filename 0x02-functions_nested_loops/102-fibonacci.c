@@ -12,7 +12,7 @@ int main(void)
 	int n3;
 	int n;
 
-	for (n = 3; n <= 50; n++)
+	for (n = '3'; n <= 50; n++)
 	{
 		putchar(n1);
 		putchar(n2);
