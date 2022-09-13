@@ -20,4 +20,5 @@ int main(void)
 		}
 		putchar(sum);
 	}
+	return (0);
 }
