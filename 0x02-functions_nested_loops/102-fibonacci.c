@@ -12,7 +12,7 @@ int main(void)
 	int n3;
 	int n;
 
-	for (n = '3'; n <= 50; n++)
+	for (n = 3; n <= 50; n++)
 	{
 		putchar(n1);
 		putchar(n2);
@@ -21,6 +21,9 @@ int main(void)
 
 		n1 = n2;
 		n2 = n3;
+		putchar('0' + n /10);
+		putchar('0' + n % 10);
 	}
+	putchar('\n');
 	return (0);
 }
