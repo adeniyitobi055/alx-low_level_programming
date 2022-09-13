@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - print all natural numbers
@@ -8,8 +9,10 @@
  */
 void print_to_98(int n)
 {
-	for (n = 1; n <= 98; n++)
+	for (n = 0; n <= 98; n++)
 	{
+		_putchar('0' + n / 10);
+		_putchar('0' + n % 10);
 		_putchar(',');
 		_putchar(' ');
 	}
