@@ -9,12 +9,12 @@
 int main(void)
 {
 	int max = 1024;
-	int sum = 0;
+	int sum;
 	int n;
 
-	for (n = 3; n < max; n++)
+	for (n = '3'; n < max; n++)
 	{
-		if ((n % 3 == 0) || (n % 5 == 0))
+		if ((n % '3' == 0) || (n % '5' == 0))
 		{
 			sum += n;
 		}
