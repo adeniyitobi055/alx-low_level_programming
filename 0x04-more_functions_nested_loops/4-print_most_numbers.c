@@ -17,7 +17,7 @@ void print_most_numbers(void)
 		}
 		else
 		{
-			_putchar('0' + a);
+			_putchar('0' + i);
 		}
 	}
 	_putchar('\n');
