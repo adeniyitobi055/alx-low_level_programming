@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * Fizz-Buzz algorithm
+ * main - fizzbuzz algorithm
  *
  * Return: zero
  */
@@ -24,7 +24,7 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else 
+		else
 		{
 			printf("%d", i);
 		}
