@@ -1,13 +1,11 @@
-#include "main"
+#include "main.h"
 #include <stdio.h>
 
 /**
- * Fizz-Buzz test -print Fizz for multiples of 3, Buzz for
- * mutiples of 5 and FizzBuzz for both 3 and 5
+ * Fizz-Buzz algorithm
  *
  * Return: zero
  */
-
 int main(void)
 {
 	int i;
