@@ -4,12 +4,12 @@
 /**
  * _isupper - check if character is uppercase
  * @c: character to be checked
- * Return: Always 0
+ * Return: 1 if c is uppercase and 0 otherwise
  */
 
 int _isupper(int c)
 {
-	if (c >= 'A'; c <= 'Z'; c++)
+	if (c >= 'A'; c <= 'Z')
 	{
 		return (1);
 	}
