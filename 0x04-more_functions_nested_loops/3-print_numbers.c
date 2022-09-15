@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * print_numbers - Print number from 0 to 9
+ * print_numbers - check the code for Betty School students.
  *
- * Return: zero
+ * Return: zero.
  */
-
 void print_numbers(void)
 {
-	int i;
+	int a;
 
-	for (i = 0; i <= 9; i++)
+	for (a = 0; a <= 9; a++)
 	{
-		_putchar('0' + i);
+		_putchar('0' + a);
 	}
 	_putchar('\n');
 }
