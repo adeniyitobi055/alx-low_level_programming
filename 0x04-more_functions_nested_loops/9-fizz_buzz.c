@@ -4,7 +4,8 @@
 /**
  * Fizz-Buzz test -print Fizz for multiples of 3, Buzz for
  * mutiples of 5 and FizzBuzz for both 3 and 5
- * Return: Always 0
+ *
+ * Return: zero
  */
 
 int main(void)
