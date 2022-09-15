@@ -11,3 +11,4 @@ C - More finctions, more nested loops
 8. Prints a square
 9. Prints Fizz for multiples of 3, Buzz for multiples of 5 and FizzBuzz for both
 10. Prints a triangle
+11. Prints an integer (101)
