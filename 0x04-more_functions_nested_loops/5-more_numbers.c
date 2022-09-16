@@ -3,6 +3,7 @@
 /**
  * more_numbers - Print numbers 0 to 14 10 times
  *
+ * Return: zero
  */
 void more_numbers(void)
 {
@@ -10,7 +11,7 @@ void more_numbers(void)
 	int j;
 
 	i = 0;
-	while (i <= 10)
+	while (i <= 9)
 	{
 		j = 0;
 		while (j <= 14)
