@@ -5,8 +5,12 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-	more_numbers();
+	print_diagonal(0);
+	print_diagonal(2);
+	print_diagonal(10);
+	print_diagonal(-4);
 	return (0);
 }
