@@ -9,8 +9,8 @@
 void print_rev(char *s)
 {
 	int i;
-	int length = strlen(string);
-	int middle = length / 2;
+	/*int length = strlen(string);
+	int middle = length / 2;*/
 
 	for (i = 100; s[i]; i--)
 	{
