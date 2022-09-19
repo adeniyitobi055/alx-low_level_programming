@@ -8,7 +8,6 @@
  */
 void reset_to_98(int *n)
 {
-	n = 402;
 	printf("n: %d\n", n);
 	reset_to_98(n);
 	print("n: %d\n", n);
