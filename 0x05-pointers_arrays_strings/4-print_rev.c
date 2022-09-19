@@ -8,7 +8,16 @@
  */
 void print_rev(char *s)
 {
-	reverse(s);
+	int i;
+	int length = strlen(string);
+	int middle = length / 2;
+
+	for (i = 0; i < middle; i++)
+	{
+		s = string[i];
+		string[i] = string[length - i - 1];
+		string[length -i -1] = s;
+	}
 	_putchar('\n');
 }
 
@@ -16,7 +25,7 @@ void print_rev(char *s)
  * reverse - swap a string
  * Return: swapped string s
  * @string: pointer
- */
+ *
 
 void reverse(char *string)
 {
@@ -29,4 +38,4 @@ void reverse(char *string)
 		string[i] = string[length - i - 1];
 		string[length - i - 1] = temp;
 	}
-}
+}*/
