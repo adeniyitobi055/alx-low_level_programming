@@ -4,7 +4,7 @@
 /**
  * print_array - print array
  *
- * @a - pointer to an integer
+ * @a: pointer to an integer
  * @n: number of elements of an array.
  */
 void print_array(int *a, int n)
