@@ -8,8 +8,8 @@
  */
 void reset_to_98(int *n)
 {
-	printf("n: %d\n", n);
+	printf("n: %ls\n", *n);
 	reset_to_98(n);
-	print("n: %d\n", n);
+	print("n: %ls\n", *n);
 	return (0);
 }
