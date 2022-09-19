@@ -7,7 +7,7 @@
  * @str: parameter
  * Return: Always 0.
  */
-int _putchar(char str)
+int _putchar(char *str)
 {
-	return (write(1, &str, 1));
+	return (write(1, &(*str), 1));
 }
