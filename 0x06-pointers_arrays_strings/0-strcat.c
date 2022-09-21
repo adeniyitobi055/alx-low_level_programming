@@ -4,15 +4,14 @@
 /**
  * *_strcat - concatenate a string.
  *
- * @dest - string one.
- * @src - string two.
+ * @dest: string one.
+ * @src: string two.
  * Return: dest.
  */
 char *_strcat(char *dest, char *src)
 {
-	/*char *ptr;
-	
-	*ptr = _strcat;*/
+	/*char *ptr;*/
+	/*ptr = _strcat;*/
 
 	while (*dest != '\0')
 	{
