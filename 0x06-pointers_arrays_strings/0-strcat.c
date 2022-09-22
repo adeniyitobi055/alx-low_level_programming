@@ -10,9 +10,6 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	/*char *ptr;*/
-	/*ptr = _strcat;*/
-
 	while (*dest != '\0')
 	{
 		dest++;
