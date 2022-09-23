@@ -3,8 +3,6 @@
 /**
  * main - print an array
  *
- * @a: array to be printed
- * @p: pointer to the array
  * Return: zero
  */
 int main(void)
