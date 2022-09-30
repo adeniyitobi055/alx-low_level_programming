@@ -4,9 +4,12 @@
 /**
  * main - program that prints it name.
  *
+ * @argc: number of characters.
+ * @argv: characters.
+ *
  * Return: zero.
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
