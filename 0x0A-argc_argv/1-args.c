@@ -9,8 +9,10 @@
  *
  * Return: zero.
  */
-int__attribute__((unused)) main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
+	(void)argv;
+
 	printf("%d\n", argc);
 	return (0);
 }
