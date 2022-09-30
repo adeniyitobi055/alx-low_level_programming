@@ -6,7 +6,6 @@
  *
  * @argv: arguments.
  * @argc: number of arguments.
- * @sum: sum of numbers.
  *
  * Return: 0,for error return 1.
  */
