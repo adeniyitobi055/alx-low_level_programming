@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * _realloc - reallocates a memory block 
+ * _realloc - reallocates a memory block
  * using malloc and free.
  * @ptr: pointer to the previous allocated memory.
  * @old_size: old size of previous memory.
@@ -37,6 +37,6 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		max = old_size;
 	for (i = 0; i < max; i++)
 		p[i] = oldp[i];
-	free (ptr);
+	free(ptr);
 	return (p);
 }
