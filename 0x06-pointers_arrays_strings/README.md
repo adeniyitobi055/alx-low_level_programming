@@ -1,4 +1,4 @@
-More pointers, arrays, and strings.
+## More pointers, arrays, and strings.
 
 0. Concatenates(join) two strings.
 1. Concatenates two strings.
