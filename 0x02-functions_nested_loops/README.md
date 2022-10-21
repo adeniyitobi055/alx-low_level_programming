@@ -1,4 +1,4 @@
-Functions nested loops
+## Functions nested loops
 
 0. Prints a string
 1. Prints alphabets in lowercase

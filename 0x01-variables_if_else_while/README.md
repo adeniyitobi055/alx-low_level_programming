@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Variables if, else, while
+=======
+## Variables if ,else, while
+>>>>>>> ca929247ac142d8d467ea5c73258fa8d8a516c56
 
 0. Checks if number is negative, zero or positive.
 1. checks if the last digit is geater than 5, or is 0 or is less than 6 and not 0.

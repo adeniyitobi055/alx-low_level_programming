@@ -1,4 +1,4 @@
-Pointers, Arrays and Strings
+## Pointers, Arrays and Strings
 
 0. Reset value to 98.
 1. Swaps the value of integers.
