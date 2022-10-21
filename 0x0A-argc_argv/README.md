@@ -1,6 +1,6 @@
 ## Arguments.
-# Argc: Argument count - contains number of arguments passed to a program.
-# Argv: Argument vector - a one dimentional array of strings.
+### Argc: Argument count - contains number of arguments passed to a program.
+### Argv: Argument vector - a one dimentional array of strings.
 
 0. Prints the name of my program.
 1. Prints the number of arguments passed into a program.
