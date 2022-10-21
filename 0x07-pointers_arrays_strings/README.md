@@ -1,4 +1,4 @@
-Pointers, Arrays and Strings.
+## Pointers, Arrays and Strings.
 
 0. Fills memory with constant byte.
 1. Copies memory area to another.
