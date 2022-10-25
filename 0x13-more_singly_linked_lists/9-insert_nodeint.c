@@ -14,13 +14,14 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *newnode;
 	listint_t *temp;
-	unsigned int i;
 
 	temp = *head;
 
 	if (idx != 0)
 	{
-		while (i < idx && temp != NULL)
+		unsigned int i = 0;
+
+		while (i < idx - 1 && temp != NULL)
 		{
 			temp = temp->next;
 			i++;
