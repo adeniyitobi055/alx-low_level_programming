@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * shah_table_create - create a sorted hash table
+ * shash_table_create - create a sorted hash table
  * @size: the size of the new sorted hash table
  * Return: NULL or pointer to the new hash table
  */
@@ -135,7 +135,8 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 	return ((node == NULL) ? NULL : node->value);
 }
 
-/**shash_table_print - prints a sorted hash table in order
+/**
+ * shash_table_print - prints a sorted hash table in order
  * @ht: a pointer to the sorted hash table
  */
 
